@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:id="@+id/tbr_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSeaBlue">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edt_search"
+                android:layout_width="0dp"
+                android:layout_height="24sp"
+                android:layout_gravity="center"
+                android:layout_weight="8"
+                android:background="@color/colorWhiteDay"
+                android:gravity="center"
+                android:hint="@string/edt_search"
+                android:maxLines="1"
+                android:textColor="@color/colorGrey"
+                android:textColorHint="@color/colorGrey"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:textSize="18sp"
+                android:theme="@style/style_edit_line" />
+
+            <ImageView
+                android:id="@+id/img_search"
+                android:layout_width="0dp"
+                android:layout_height="24sp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:contentDescription="@string/img_search"
+                android:focusable="true"
+                android:src="@drawable/img_search" />
+        </LinearLayout>
+    </Toolbar>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/view_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="8"
+        android:scrollbars="vertical">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

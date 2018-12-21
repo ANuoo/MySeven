@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MySeven</string>
+    <string name="edt_search">please enter the title of a book</string>
+    <string name="img_search">img_search</string>
+    <string name="img_cover">img_cover</string>
+    <string name="txt_nofind">Sorry,Not find the book</string>
+    <string name="txt_content">50年前由长沙土夫子（盗墓贼）出土的战国帛书，
+        记载了一个奇特战国古墓的位置，50年后，其中一个土夫子的孙子在他的笔
+        记中发现这个秘密......</string>
+</resources>
